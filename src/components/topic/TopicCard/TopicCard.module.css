@@ -1,13 +1,22 @@
 .wrapper {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  gap: var(--space-sm);
 }
 
-.meta {
-  display: flex;
-  gap: var(--space-md);
+.stars {
+  color: #f59e0b;
 
+  letter-spacing: 2px;
+}
+
+.title {
+  font-size: 1.15rem;
+
+  font-weight: 600;
+}
+
+.time {
   color: var(--text-secondary);
 
   font-size: 0.875rem;

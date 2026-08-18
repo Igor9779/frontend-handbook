@@ -11,13 +11,11 @@ export default function TopicCard({ topic }: Props) {
   return (
     <Card>
       <div className={styles.wrapper}>
-        <h3>{topic.title}</h3>
+        <div className={styles.stars}>{"★".repeat(topic.difficulty)}</div>
 
-        <div className={styles.meta}>
-          <span>{"★".repeat(topic.difficulty)}</span>
+        <h3 className={styles.title}>{topic.title}</h3>
 
-          <span>{topic.readingTime} min</span>
-        </div>
+        <span className={styles.time}>⏱ {topic.readingTime} мин</span>
       </div>
     </Card>
   );

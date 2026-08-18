@@ -5,7 +5,7 @@ export default function Header() {
     <header className={styles.header}>
       <div>
         <h1 className={styles.title}>Frontend Handbook</h1>
-        <p className={styles.subtitle}>Master frontend interviews.</p>
+        <p className={styles.subtitle}>Подготовка к Frontend собеседованиям.</p>
       </div>
     </header>
   );

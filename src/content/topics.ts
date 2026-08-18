@@ -9,7 +9,7 @@ export const popularTopics: Topic[] = [
   },
   {
     id: "closure",
-    title: "Closure",
+    title: "Замыкания (Closure)",
     difficulty: 5,
     readingTime: 5,
   },
