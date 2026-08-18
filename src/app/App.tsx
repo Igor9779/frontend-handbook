@@ -1,5 +1,7 @@
-function App() {
-  return <div>Frontend Handbook</div>;
-}
+import { RouterProvider } from "react-router-dom";
 
-export default App;
+import { router } from "./router";
+
+export default function App() {
+  return <RouterProvider router={router} />;
+}

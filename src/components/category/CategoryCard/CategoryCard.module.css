@@ -1,0 +1,12 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+.color {
+  width: 14px;
+  height: 14px;
+
+  border-radius: 50%;
+}
